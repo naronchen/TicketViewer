@@ -51,7 +51,7 @@ def main():
     #set request params
     url = 'https://zccnaron.zendesk.com/api/v2/incremental/tickets/cursor.json?&start_time=0'
     user = 'naron.chen@richmond.edu'
-    pwd = '12345'
+    pwd = 'blank'
 
     #Get the data of all tickets, convert to pandas dataframe
     ticketData = GetPageData(url, user, pwd) #Empty Data Exception
