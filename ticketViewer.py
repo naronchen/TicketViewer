@@ -70,7 +70,7 @@ def main():
     #set request params
     url = 'https://zccnaron.zendesk.com/api/v2/incremental/tickets/cursor.json?&start_time=0'
     user = 'naron.chen@richmond.edu'
-    pwd = '12345'
+    pwd = 'blank'
     
     # user = input("--Please Enter Your Email: ")
     # pwd = stdiomask.getpass("--Please Enter Your Password: ") # It will ask to enter password and display * on the screen
