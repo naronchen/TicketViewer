@@ -166,7 +166,6 @@ class ticketViewer:
                 if self.checkTicketNum(ticket_num) is False: continue #if user input for ticketnum is invalid, then let user try input again
             
             thisData = self.df.loc[self.df['id'] == int(ticket_num)]
-            print(thisData)
             self.showInfo(thisData)
             print("----------------VIEW ONE TICKET-----------------")
             print("     *Enter 1 to search for another ticket")
@@ -203,7 +202,6 @@ class ticketViewer:
                 self.invalid()
 
     def run(self):
-
         self.logIn()
         self.home()
 
