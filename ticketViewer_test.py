@@ -1,5 +1,5 @@
 #In this unit test I tested three most important components for exception handling
-#one testing for log_in's exception handling which is main the function --- Response Check
+#one testing for log_in's exception handling which is mainly the function Response Check
 #one testing for view all function's exception handling which is mainly the function updatePage
 #last one testing for view one ticket function's exception handling which is mainly the function checkTicketNum
 
@@ -21,7 +21,7 @@ import stdiomask
 # fake_input = iter(['1', 'zmm', 'naron.chen@richmond.edu', '12345', 'quit']).__next__
 class TestTicketViewer(unittest.TestCase):
     # @patch('ticketViewer.input', fake_input)
-    def test_logIn(self):
+    def test_ResponseCheck(self):
 
         p1 = ticketViewer('1', 'google', 'naron.chen@richmond.edu', '12345') #invalid subdomain example 
         response = requests.get(p1.url, auth = (p1.user, p1.pwd))
