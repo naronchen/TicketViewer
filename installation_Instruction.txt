@@ -1,0 +1,6 @@
+1. Make sure you got python3 installed
+2. type "pip3 install -r requirements.txt" in terminal to install the python libraries required
+    Warm note: you probably want to do the above steps in the virtual environment
+
+3. You are all set!   
+4. type "python3 ticketViewer.py" to launch the program
